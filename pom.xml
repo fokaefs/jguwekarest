@@ -47,10 +47,10 @@
                         <id>default-test</id>
                         <configuration>
                             <excludes>
-                                <!--<exclude>**/unit/**</exclude>
+                                <exclude>**/unit/**</exclude>
                                 <exclude>**/integration/**</exclude>
                                 <exclude>**/authsystem/**</exclude>
-                                <exclude>**/helper/**</exclude>-->
+                                <exclude>**/helper/**</exclude>
                             </excludes>
                         </configuration>
                     </execution>
