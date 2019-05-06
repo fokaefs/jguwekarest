@@ -137,7 +137,7 @@ public class TreesTest {
             "sunny,75,70,TRUE,yes,0.0\n" +
             "overcast,72,90,FALSE,yes,0.0\n" +
             "overcast,81,75,FALSE,yes,0.0\n" +
-            "overcast,71,91,TRUE,no,0.0"));
+            "overcast,71,91,TRUE,no,1.0"));
         String id = model_uri.substring(model_uri.length() - 24);
         Boolean resultDelete = ModelService.deleteModel(id);
         Assert.assertTrue(resultDelete);
